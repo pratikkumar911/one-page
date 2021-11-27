@@ -4,7 +4,6 @@ export const Wrapper  = styled.div`
     display:flex;
     justify-content:space-between;
     margin-top:40px;
-
 `;
 export const Container  = styled.div`
     display:flex;
@@ -16,7 +15,7 @@ export const Heading  = styled.h1`
     font-size:var(--fontBig);
     color:var(--${(props)=>props.color})
 `;
-export const Link  = styled.div`
+export const Link  = styled.a`
     font-size:var(--fontMed);
     text-decoration:none;
     color:var(--white);
